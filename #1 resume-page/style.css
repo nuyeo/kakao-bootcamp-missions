@@ -11,3 +11,33 @@ p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
 }
+
+main {
+    padding: 20px 10%; /* 패딩 */
+    background-color: #fff; /* 배경 색상 */
+    color: #333; /* 텍스트 색상 */
+}
+
+section {
+    margin-bottom: 20px; /* 각 섹션 하단 여백 */
+}
+
+section h2 {
+    background-color: #333; /* 제목 배경 색상 */
+    color: #fff; /* 제목 텍스트 색상 */
+    padding: 10px; /* 패딩 */
+    margin: 0 0 10px; /* 마진 */
+}
+
+ul {
+    list-style-type: none; /* 리스트 스타일 제거 */
+    padding: 0; /* 패딩 제거 */
+}
+
+li {
+    margin-bottom: 5px; /* 리스트 아이템 간 여백 */
+}
+
+li ul {
+    padding-left: 20px; /* 내부 리스트 패딩 */
+}
