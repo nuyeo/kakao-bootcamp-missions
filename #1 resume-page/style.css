@@ -69,3 +69,14 @@ li ul {
 #portfolio a:hover {
     text-decoration: underline;
 }
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    section {
+        width: 100%;
+    }
+}
