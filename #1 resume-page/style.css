@@ -71,13 +71,56 @@ li ul {
     text-decoration: underline;
 }
 
+/* 최대 너비가 768px 이하인 화면에 적용될 스타일 */
 @media (max-width: 768px) {
-    main {
-        flex-direction: column;
-        align-items: stretch;
+    body {
+        background-color: #f4f4f4;
+    }
+
+    header, footer {
+        padding: 15px 5%;
     }
 
     section {
-        width: 100%;
+        margin: 10px 5%;
+        padding: 15px;
+    }
+
+    .header-container, .footer-container {
+        text-align: center;
+    }
+
+    h1, h2 {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        padding-left: 20px;
+    }
+
+    li {
+        font-size: 0.9rem;
+        padding: 5px 0;
+    }
+}
+
+/* 더 작은 모바일 화면 (최대 너비 480px)에 적용될 스타일 */
+@media (max-width: 480px) {
+    header, footer {
+        padding: 10px 5%;
+    }
+
+    section {
+        margin: 5px 5%;
+        padding: 10px;
+    }
+
+    /* 폰트 크기를 더 줄입니다 */
+    h1, h2 {
+        font-size: 1.25rem;
+    }
+
+    li {
+        font-size: 0.8rem;
     }
 }
